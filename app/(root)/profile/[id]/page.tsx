@@ -1,6 +1,9 @@
 import Image from "next/image";
 import { currentUser } from "@clerk/nextjs";
 import { redirect } from "next/navigation";
+import React, { useContext } from 'react';
+//import MyContext from './MyContext';
+
 
 import { profileTabs } from "@/constants";
 

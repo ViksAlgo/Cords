@@ -38,7 +38,7 @@ interface Props {
   accountType: string;
 }
 
-async function ThreadsTab({ currentUserId, accountId, accountType }: Props) {
+const ThreadsTab=async({ currentUserId, accountId, accountType }: Props)=>{
   let result: Result;
 
   if (accountType === "Community") {

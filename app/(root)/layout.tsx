@@ -12,10 +12,10 @@ import Topbar from "@/components/shared/Topbar";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata: Metadata = {
-  title: "Threads",
-  description: "A Next.js 13 Meta Threads application",
-};
+export const metadata = {
+  title: 'Cords',
+  description: 'A nexxt js 13 meta threads application'
+}
 
 export default function RootLayout({
   children,
